@@ -42,7 +42,7 @@
             button1.TabIndex = 0;
             button1.Text = "Sinister";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += btnSinister_Click;
             // 
             // button2
             // 
@@ -52,6 +52,7 @@
             button2.TabIndex = 1;
             button2.Text = "Medium";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += btnMedium_Click;
             // 
             // button3
             // 
@@ -61,6 +62,7 @@
             button3.TabIndex = 2;
             button3.Text = "Dexter";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += btnDexter_Click;   
             // 
             // lblOutput
             // 

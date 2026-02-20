@@ -14,7 +14,20 @@ namespace LatinTranslator
         private void btnSinister_Click(object sender, EventArgs e)
         {
             lblOutput.Text = "Left";
-            lblOutput.Left = 50;
+            lblOutput.Left = 130;
+        }
+
+        private void btnMedium_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Center";
+            lblOutput.Left = (this.ClientSize.Width - lblOutput.Width) / 2;
+
+        }
+
+        private void btnDexter_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Right";
+            lblOutput.Left = 625;
         }
     }
 }
